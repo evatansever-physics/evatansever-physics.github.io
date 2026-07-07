@@ -1,0 +1,48 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="240" fill="#E8F5F4"/>
+
+  <!-- Core/shell nanoparticle 1 (sphere) -->
+  <g transform="translate(120,120)">
+    <circle r="62" fill="#C4E0DE" stroke="#5A8A87" stroke-width="1.5"/>
+    <circle r="34" fill="#0F2E2E"/>
+    <circle r="34" fill="none" stroke="#4ECDC4" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <!-- spin arrows on shell -->
+    <g stroke="#5A8A87" stroke-width="1.6" fill="none">
+      <line x1="0" y1="-50" x2="0" y2="-38" marker-end="url(#a2)"/>
+      <line x1="35" y1="-41" x2="29" y2="-31" marker-end="url(#a2)"/>
+      <line x1="-35" y1="-41" x2="-29" y2="-31" marker-end="url(#a2)"/>
+      <line x1="50" y1="0" x2="40" y2="0" marker-end="url(#a2)"/>
+      <line x1="-50" y1="0" x2="-40" y2="0" marker-end="url(#a2)"/>
+      <line x1="35" y1="41" x2="29" y2="31" marker-end="url(#a2)"/>
+      <line x1="-35" y1="41" x2="-29" y2="31" marker-end="url(#a2)"/>
+      <line x1="0" y1="50" x2="0" y2="38" marker-end="url(#a2)"/>
+    </g>
+    <!-- core spin arrow -->
+    <line x1="0" y1="14" x2="0" y2="-14" stroke="#4ECDC4" stroke-width="2.4" marker-end="url(#a3)"/>
+  </g>
+
+  <!-- Core/shell nanoparticle 2 (ellipsoid) -->
+  <g transform="translate(280,130)">
+    <ellipse rx="70" ry="46" fill="#C4E0DE" stroke="#5A8A87" stroke-width="1.5"/>
+    <ellipse rx="40" ry="22" fill="#0F2E2E"/>
+    <ellipse rx="40" ry="22" fill="none" stroke="#4ECDC4" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <line x1="0" y1="10" x2="0" y2="-10" stroke="#4ECDC4" stroke-width="2.2" marker-end="url(#a3)"/>
+    <g stroke="#5A8A87" stroke-width="1.4" fill="none">
+      <line x1="50" y1="-30" x2="42" y2="-22" marker-end="url(#a2)"/>
+      <line x1="-50" y1="-30" x2="-42" y2="-22" marker-end="url(#a2)"/>
+      <line x1="58" y1="0" x2="46" y2="0" marker-end="url(#a2)"/>
+      <line x1="-58" y1="0" x2="-46" y2="0" marker-end="url(#a2)"/>
+    </g>
+  </g>
+
+  <defs>
+    <marker id="a2" markerWidth="5" markerHeight="5" refX="2.5" refY="2.5" orient="auto">
+      <path d="M0,0 L5,2.5 L0,5 Z" fill="#5A8A87"/>
+    </marker>
+    <marker id="a3" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#4ECDC4"/>
+    </marker>
+  </defs>
+
+  <text x="200" y="215" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#5A8A87" letter-spacing="1">PLACEHOLDER — CORE/SHELL NANOPARTICLE GEOMETRIES</text>
+</svg>
