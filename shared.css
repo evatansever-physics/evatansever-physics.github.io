@@ -98,8 +98,11 @@ h2.title { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 3vw,
 .mc:hover { background: var(--gray1); }
 .mc:nth-child(3n) { border-right: none; }
 .mc-initial { width: 44px; height: 44px; border-radius: 50%; background: var(--black); color: var(--white); display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 1.1rem; margin-bottom: 0.9rem; }
+.mc-photo { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; background: var(--gray1); border: 1px solid var(--rule); display: block; margin-bottom: 0.9rem; }
 .mc-name { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.2rem; }
 .mc-role { font-size: 0.75rem; color: var(--gray3); }
+.mc-link { display: inline-block; margin-top: 0.7rem; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.03em; color: var(--teal); text-decoration: none; border-bottom: 1px solid var(--teal); padding-bottom: 1px; }
+.mc-link:hover { color: var(--black); border-bottom-color: var(--black); }
 
 /* News */
 .news { background: var(--gray1); }
